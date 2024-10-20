@@ -1,5 +1,5 @@
-## Usando o Algoritmo de Dijkstra, mostre o arranjo de distância e o de predecessores
-## além de apresentar a árvore de custo mínimo.
+# Using Dijkstra's Algorithm, the distance array and the predecessor array
+# and the minimum cost tree.
 
 import heapq
 
