@@ -1,6 +1,5 @@
 # busca-em-grafos
-Testando algoritmos de busca em grafos.
-
+Testando algoritmos de busca em um grafo baseado na minha matrícula.
 
 
 - nessário  python3;
@@ -30,10 +29,17 @@ i e
 𝑗
 j. Se for, atualize a matriz de distâncias e a matriz de predecessores.
 
+### Bellman Ford:
+
+O Algoritmo de Bellman-Ford foi implementado para calcular as menores distâncias a partir de um vértice de origem até todos os outros vértices.
+O algoritmo relaxa as arestas várias vezes (o número de vértices - 1 vezes) e atualiza as distâncias e predecessores.
+Depois disso, ele verifica se há ciclos de peso negativo no grafo.
+O código imprime tanto o arranjo de distâncias quanto o de predecessores, e também a árvore de custo mínimo.
+
+
 ### Passos para o Dijkstra:
 
-**Definir o Grafo:** Representar o grafo usando uma estrutura adequada, como um dicionário.
-Inicializar as Distâncias e Predecessores: Criar listas para armazenar as distâncias e os predecessores de cada nó.
+**Inicializar as Distâncias e Predecessores**: Criar listas para armazenar as distâncias e os predecessores de cada nó.
 
 **Algoritmo:**
 Inicializar a distância do nó de origem como 0 e as demais como infinito.
