@@ -42,7 +42,7 @@ Ordena todas as arestas do grafo pelos pesos.
 Utiliza a estrutura de conjuntos disjuntos para adicionar arestas na Construção da Árvore Geradora Mínima (MST), garantindo que não haja ciclos.
 Mostra as arestas da MST e o custo total.
 
-### Passos para o Dijkstra:
+### Dijkstra:
 
 **Inicializar as Distâncias e Predecessores**: Criar listas para armazenar as distâncias e os predecessores de cada nó.
 
