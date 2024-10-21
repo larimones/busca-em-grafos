@@ -36,6 +36,11 @@ O algoritmo relaxa as arestas várias vezes (o número de vértices - 1 vezes) e
 Depois disso, ele verifica se há ciclos de peso negativo no grafo.
 O código imprime tanto o arranjo de distâncias quanto o de predecessores, e também a árvore de custo mínimo.
 
+### Kruskal
+
+Ordena todas as arestas do grafo pelos pesos.
+Utiliza a estrutura de conjuntos disjuntos para adicionar arestas na Construção da Árvore Geradora Mínima (MST), garantindo que não haja ciclos.
+Mostra as arestas da MST e o custo total.
 
 ### Passos para o Dijkstra:
 
